@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--                    #################                              -->
+    <script src="./tracking.js-master/build/tracking-min.js"></script>
+    <script src="./tracking.js-master/build/data/face-min.js"></script>
+    <script src="./script.js"></script>
+    <!--                    #################                              -->
+    <title>Face Tracking</title>
+    <style>
+        video, canvas{
+            position: absolute;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body onload="init();">
+
+    <!-- Tag onde chamamos a WEBCAM #OBS: A biblioteca tracking que controla a tag video! -->
+    <video  id="video"  style="width: 320px" height="240px" preload autoplay loop muted></video>
+    <canvas id="canvas" style="width: 320px" height="240px"></canvas>
+
+</body>
+</html>
