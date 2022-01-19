@@ -1,6 +1,6 @@
 ## [JAVASCRIPT] DETECÇÃO FACIAL</h2>
 <hr>
-[PT-BR]💻 Detecçãot facial a partir de visão computacional na web utilizando o javascript (tracking.js)
+[PT-BR]💻 Detecção facial a partir de visão computacional na web utilizando o javascript (tracking.js)
 
 <h3>🚀 Tecnologias utilizadas </h3>
 <ul>
